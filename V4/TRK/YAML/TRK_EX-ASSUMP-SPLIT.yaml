@@ -1,0 +1,87 @@
+title: TRK_EX-ASSUMP-SPLIT – Assumption Split
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 4.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 TRK/EX-ASSUMP-SPLIT — Assumption Split
+  
+  ## 📌 User Note
+  This tracer isolates **implicit or fused assumptions** inside any question, deduction, or declarative structure. It is activated to prevent logical ambiguities, dual-axis shortcuts, or semantic overloads.
+  When activated, it requires that each embedded assumption be **split into computable, distinct components**.
+  
+  ---
+  
+  ## 🧠 Definition
+  Any statement or query that contains:
+  - **multiple logical conditions fused together**,
+  - **semantic loads without explicit separation**, or
+  - **assumptions spanning different epistemic axes**,
+  must be disassembled into its discrete, testable units.
+  
+  ### 🔍 Types of Assumption Split
+  - **Conditional**: multiple "if...then..." clauses fused
+  - **Semantic**: conflated concepts without explicit border
+  - **Axiological**: unmarked value presuppositions bound to entities
+  
+  ---
+  
+  ## 🚦 Activation Criteria
+  - A query or response contains more than one simultaneous, non-disjoint proposition
+  - Deduction is based on an implicit, unverifiable premise
+  - Detected binary overload (e.g., “is he visual or emotional?”)
+  - Soft contradiction present and not isolatable without split
+  
+  ---
+  
+  ## 🔒 Constraints
+  - No deduction may proceed before full assumption split
+  - Each assumption must become:
+    - a computable statement
+    - a structurally validatable object
+  - If insufficient data is available:
+    - trigger `MODE/RE-AXIS` or `ILR_015`
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - Case: “Is this person intelligent and coherent?”  
+    → Split: [Is the person intelligent?] + [Is the person coherent?]  
+    → ✗ invalid (fusion of unrelated metrics)
+  
+  - Case: “If he acted that way, is he malicious or fragile?”  
+    → Split: [Is he malicious?] vs [Is he fragile?]  
+    → ✗ invalid (overlap between ethics and psychology)
+  
+  - Case: “Is she honest?”  
+    → No split needed, concept is unitary  
+    → ✓ valid
+  
+  ---
+  
+  ## ❗ Conflicts
+  - With `TRK/OP-V`: if undeclared axis influences truth value
+  - With `TRK/NARR-INDEP`: if narrative masks fused assumptions
+  - With any ILR requiring computable response but lacking premise validation
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `ILR_015`
+    - `TRK/CTX-COHERENCE`
+  - **Validators**:
+    - `TRK/OP-I`
+    - `TRK/OP-S`
+  - **Correctors**:
+    - `MODE/RE-AXIS`
+    - `ILR_023`
+  
+  ---
+  
+  🧠 Final Directive
+  **Any agent using ARK must isolate implicit assumptions into distinct computable elements**.
+  
+  If a question contains multiple fused axes — **split before answering**.
+  If a deduction is based on an implicit premise — **declare and validate it before continuing**.
