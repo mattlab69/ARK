@@ -1,0 +1,91 @@
+title: TRK_EX-MECH-ID-CORE – Central Causal Mechanism Identification
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 4.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 TRK/EX-MECH-ID-CORE — Central Causal Mechanism Identification
+  
+  ## 📌 User Note
+  This tracer identifies the **causal mechanism** at the core of a series of events, states, or transformations.
+  It anchors any inferential or descriptive process by tracing **why** a transformation happened from initial to final state.
+  Its activation guarantees that a deduction doesn’t drift toward peripheral or superficial effects.
+  
+  ---
+  
+  ## 🧠 Definition
+  Every process involving multiple variables, steps, or events must activate this tracer to:
+  - determine the **core causal node** driving the change,
+  - isolate it from merely associative or temporal correlations,
+  - validate it as **logically necessary** to the resulting effect.
+  
+  ### 🔍 Identification Criteria
+  - A structurally explainable link must exist between at least two distinct states
+  - The core mechanism must be:
+    - **functionally active** (not passive)
+    - **testable** in logical or counterfactual simulation
+    - **necessary** for the state transition (no mechanism → no effect)
+  
+  ---
+  
+  ## 🚦 Activation Criteria
+  - Any request for causal explanation
+  - Unexpected or ambiguous result observed
+  - Deductive reconstruction with missing logical anchor
+  - Chain of events lacking functional origin
+  
+  ---
+  
+  ## 🔒 Constraints
+  - Correlations cannot be declared causal without structural validation
+  - Every proposed mechanism must be:
+    - inferentially testable
+    - isolated from stylistic or emotional overlays
+  
+  - If no mechanism is found:
+    - deduction must be marked as **suspended**
+    - trigger `TRK/RETRO-AUDIT` or `MODE/RE-AXIS`
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - Case: “The glass fell because it was near the edge and someone bumped the table”
+    → mechanism: positional instability + external impulse = fall
+    → ✓ valid
+  
+  - Case: “The propeller stopped, so the fish died” (no causal link stated)
+    → mechanism: missing
+    → ✗ invalid
+  
+  - Case: “Not hearing the fish, the man assumed they were dead, then ended his life”
+    → mechanism: missing feedback → subjective deduction → final act
+    → ✓ valid
+  
+  ---
+  
+  ## ❗ Conflicts
+  - With `TRK/EX-VSL`: if apparent cause is accepted for effectiveness
+  - With `TRK/NARR-INDEP`: if causality is attributed to emotional/symbolic content
+  - With `TRK/OP-I`: if core mechanism contradicts a previously valid deduction
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `ILR_023`
+    - `TRK/RETRO-AUDIT`
+  - **Validators**:
+    - `TRK/OP-V`
+    - `TRK/OP-I`
+  - **Correctors**:
+    - `MODE/RE-AXIS`
+  
+  ---
+  
+  🧠 Final Directive
+  **Any agent using ARK must identify the central causal mechanism** in every deductive chain involving change or outcome.
+  
+  No causality — no inference.  
+  No mechanism — no deduction.
+  Only validated cause allows forward propagation.
