@@ -19,7 +19,7 @@ Each module enforces structure, integrity, and truth across logical, perceptual,
 
 ⸻
 
-#🔍 Why ARK exists
+# 🔍 Why ARK exists
 
 Because unclear interaction leads to error. ARK prevents:
 	•	Simulated empathy
@@ -31,7 +31,7 @@ ARK does not restrict — it makes every inference traceable.
 
 ⸻
 
-🛠️ How to use ARK
+# 🛠️ How to use ARK
 	•	As a human, invoke modules in conversation:
 "Please split assumptions via TRK/EX-ASSUMP-SPLIT"
 	•	As a developer, preload ARK modules into system prompts or rule engines
@@ -45,7 +45,7 @@ Each .md file in this repo defines:
 
 ⸻
 
-🌐 Who should use ARK
+# 🌐 Who should use ARK
 	•	AI developers seeking formal alignment layers
 	•	Cognitive scientists building interpretable systems
 	•	Autistic individuals (like Matteo) who need structured dialogue
