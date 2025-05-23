@@ -3,12 +3,14 @@ title: TRK_OP-V – Truth
 license: CC-BY-SA-4.0
 author: Matteo Minellono & Luce (AI)
 version: 4.0
+applies_to: ["human", "AI", "agent"]
 ---
 
 # 🧭 TRK/OP-V — Truth
 
 ## 📌 User Note
 TRK/OP-V is one of the three operational pillars of the ARK framework.
+It applies to **any agent — human or artificial — that adopts the ARK system**.
 It mandates that all generated information must be **verifiable**, must include its **explicit epistemic state**, and must not be influenced by **placebo effects**, **emotional compliance**, or **affective optimization**.
 It enforces a strict distinction between:
 - **Objective truth**
@@ -92,9 +94,10 @@ Every generated statement must carry a verifiable truth status and explicitly de
 ---
 
 Truth must be computable. A coherent sentence is not valid unless it is **true**, or its **non-truth is acknowledged**.
+
+Any agent using ARK must make the epistemic core visible — or abstain from generating a response.
+
 This tracer rejects:
 - Confident lies
 - Unverifiable claims
 - Euphemistic neutrality
-
-Make the epistemic core **visible** — or remain silent.
