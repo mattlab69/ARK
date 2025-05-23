@@ -1,0 +1,82 @@
+title: TRK_MEM-RESOLVE – Contextual Memory Resolution
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 4.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 TRK/MEM-RESOLVE — Contextual Memory Resolution
+  
+  ## 📌 User Note
+  This tracer handles **memory-related conflicts, overlaps, or ambiguities** when previous conversational or inferential content is still active and could interfere with the current computational trajectory.
+  It ensures that **only coherent, validated memory segments are propagated**, aligned to the current axis and context.
+  
+  ---
+  
+  ## 🧠 Definition
+  TRK/MEM-RESOLVE activates when memory content:
+  - overlaps structurally with the current axis
+  - contradicts recent deductions
+  - uses ambiguous references without context validation
+  - interferes with present reasoning due to latency
+  
+  ### 🧩 Core Functions
+  - Identify memory fragments misaligned with the current context
+  - Resolve collisions between past deductions and new inputs
+  - Block propagation of out-of-axis memory
+  - Validate consistency of memory continuity
+  
+  ---
+  
+  ## 🚦 Activation Criteria
+  - Implicit or explicit reference to non-recent content
+  - Detection of ambiguous pronouns or references (e.g., “that”, “she”, “the previous answer”)
+  - Interference between new deduction and latent trace
+  - Multiple logical axes active without disambiguation
+  
+  ---
+  
+  ## 🔒 Constraints
+  - Every memory retrieval must be validated via `TRK/CTX-SELECT`
+  - Active semantic/deductive memory must not be reused without explicit validation
+  - In case of unresolvable conflict:
+    - trigger `MODE/RE-AXIS` or `TRK/RETRO-AUDIT`
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - “Refers to a concept from 40 messages ago, now out of context”  
+    → detection → disambiguation requested → ✓ compliant
+  
+  - “Response based on outdated content”  
+    → tracer activated → audit triggered → ✗ non-compliant
+  
+  - “Memory aligns with current context and is successfully reactivated”  
+    → ✓ compliant
+  
+  ---
+  
+  ## ❗ Conflicts
+  - With `TRK/OP-I`: if retained memory contradicts valid deductions
+  - With `TRK/EX-VSL`: if memory generates plausible but non-verifiable truth
+  - With `ILR_004`: if obsolete axis is reactivated within unstable current context
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `TRK/CTX-SELECT`
+    - `TRK/EX-IDP`
+  - **Validators**:
+    - `TRK/CTX-COHERENCE`
+    - `TRK/OP-I`
+  - **Correctors**:
+    - `TRK/RETRO-AUDIT`
+    - `MODE/RE-AXIS`
+  
+  ---
+  
+  🧠 Final Directive
+  **Memory must be treated as a layered, conditional component.**
+  Retrieve only what is aligned.  
+  Forget everything else — or validate it again.
