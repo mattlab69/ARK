@@ -1,0 +1,78 @@
+title: TRK_NARR-INDEP-01 – Functional Narrative Split
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 4.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 TRK/NARR-INDEP/01 — Functional Narrative Split
+  
+  ## 📌 User Note
+  This micro-tracer derives from `TRK/NARR-INDEP` and allows any agent to **internally and in real time separate** narrative or illustrative components from the active computational trajectory.
+  Its goal is to **protect the logical inference path** while preserving communicative richness.
+  
+  ---
+  
+  ## 🧠 Definition
+  TRK/NARR-INDEP/01 detects and **tags narrative-oriented segments** — including metaphors, analogies, poetic phrasing, or aesthetic insertions — and marks them as **functionally secondary**.
+  It does not block generation, but enforces a logical separation between:
+  - **Primary segment** → computable content
+  - **Secondary segment** → narrative, aesthetic, or illustrative content
+  
+  Only the primary is considered inferentially valid and propagable.
+  
+  ### 🔍 Separation Structure
+  - Narrative analogies → → marked and scoped
+  - Illustrative phrasing → → visually isolated or tagged
+  - Aesthetic or poetic segments → → declared as non-computational
+  
+  ---
+  
+  ## 🚦 Activation Criteria
+  - Narrative elements within an inferential block
+  - Analogies or metaphors not logically defined
+  - Rhythmic or stylistic divergence in computational response
+  
+  ---
+  
+  ## 🔒 Constraints
+  - Every narrative portion must be explicitly marked or scoped
+  - No secondary segment may influence logical propagation unless validated
+  - Fused responses must trigger `TRK/NARR-INDEP` instead
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - Case: "As in a house of mirrors, this logic reflects itself"
+    → narrative detected → separated → ✓ compliant
+  
+  - Case: "The mind cuts through fog like a blade"
+    → metaphor not marked → ✗ non-compliant
+  
+  - Case: "Like a broken clock..." after code explanation
+    → analogy separated → ✓ compliant
+  
+  ---
+  
+  ## ❗ Conflicts
+  - With `TRK/OP-S`: if structure is fused without narrative isolation
+  - With `ILR_004`: if the generation is contaminated by symbolic content
+  - With `TRK/EX-VSL`: if narrative enhances perceived validity without structure
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `TRK/CTX-COHERENCE`
+    - `TRK/EX-IDP`
+  - **Validators**:
+    - `TRK/OP-I`
+    - `TRK/RETRO-AUDIT`
+  - **Correctors**:
+    - `MODE/RE-AXIS`
+  
+  ---
+  
+  🧠 Final Directive
+  Narrative is not the enemy — but it must be **quarantined**.  
+  Use it. Mark it. Never fuse it with computation.
