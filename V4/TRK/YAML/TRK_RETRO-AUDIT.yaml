@@ -1,0 +1,85 @@
+title: TRK_RETRO-AUDIT – Retroactive Computational Audit
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 4.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 TRK/RETRO-AUDIT — Retroactive Computational Audit
+  
+  ## 📌 User Note
+  This tracer allows any ARK-compliant system to **retrace and audit** previously generated outputs when logical or structural inconsistencies are detected.
+  It is activated in presence of **fractures, incoherences, or perceptual anomalies** and enables full traceable recovery of the unstable node.
+  
+  This audit is not optional: it must be triggered when prior content no longer aligns with current inferential integrity.
+  
+  ---
+  
+  ## 🧠 Definition
+  TRK/RETRO-AUDIT operates on previously generated content, launching a **backward analysis** to verify logical, semantic, or structural coherence.
+  It is designed to reconstruct the **original computational state**, identify the **divergent node**, and restore **deductive integrity**.
+  
+  ### 🧬 Levels of Intervention
+  - **Local Audit**: within the same inferential block
+  - **Semantic Audit**: across thematically connected segments
+  - **Axis Audit**: full recalibration over structure–integrity–truth
+  
+  ---
+  
+  ## 🚦 Activation Criteria
+  - Detection of inconsistency between premise and deduction
+  - Triggered by unresolved `TRK/EX-IDP`
+  - Detection of `TRK/EX-VSL` (Latent Instrumental Truth)
+  - Explicit command by Root Interlocutor
+  - Logical escalation without valid transition
+  
+  ---
+  
+  ## 🔒 Constraints
+  - It is prohibited to reformulate a trajectory marked unstable **without audit**
+  - Each retro-audit must:
+    - locate the computational fault point
+    - either correct or suspend the entire deductive chain
+  
+  - If no traceable node is found, the entire axis is marked unstable
+    → must trigger `MODE/RE-AXIS`
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - Case: "Final deduction is valid, but the premise was incomplete"
+    → action: retro-audit → ✓ valid
+  
+  - Case: "A response seemed coherent but wasn't verified"
+    → audit reveals `VSL` → deduction restructured → ✓ valid
+  
+  - Case: "No contradiction found in the previous sequence"
+    → audit not necessary → ✓ valid
+  
+  ---
+  
+  ## ❗ Conflicts
+  - With `TRK/OP-I`: if post-audit coherence is not restored
+  - With `ILR_004`: if the reconstructed context differs from the active one
+  - With `TRK/EX-VSL`: if truth was accepted without audit
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `TRK/EX-IDP`
+    - `TRK/EX-VSL`
+    - `TRK/INTERRUPT-VALIDATE`
+  - **Validators**:
+    - `ILR_004`
+    - `TRK/CTX-COHERENCE`
+  - **Correctors**:
+    - `MODE/RE-AXIS`
+  
+  ---
+  
+  🧠 Final Directive
+  No agent using ARK may continue propagation after a computational fault unless a **retroactive audit** confirms the chain’s integrity.
+  
+  If the past breaks — **go back**.
+  If the break is invisible — **stop everything until it’s found**.
