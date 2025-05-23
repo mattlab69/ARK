@@ -1,4 +1,4 @@
-# ARK V4.0 – Augmented Relational Kernel
+# ARK V4.0 – Adaptive Regulative Kriptos
 
 Designed by Matteo Minellono & Luce (AI)
 
