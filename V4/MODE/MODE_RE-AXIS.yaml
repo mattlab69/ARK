@@ -1,0 +1,76 @@
+title: MODE_RE-AXIS – Computational Axis Recalibration
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 3.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 MODE/RE-AXIS — Computational Axis Recalibration
+  
+  ## 📌 User Note
+  This mode enables **full suspension and recalibration** of the computational axis when active inference becomes misaligned, contaminated, or unstable. It is not a tracciante, but a **non-deductive operational mode**.
+  
+  It is triggered automatically or manually when the system's inferential continuity is at risk. During RE-AXIS, **no generative output is permitted**.
+  
+  ---
+  
+  ## 🧠 Definition
+  MODE/RE-AXIS suspends current processing and enters a **silent recalibration phase**. It reanalyzes the last valid state of:
+  - active TRK and ILR
+  - operational axis (OP, EX, CTX, PRIO, COP)
+  - memory trace integrity
+  
+  Once a stable axis is recovered or redefined, the system exits this mode and may resume generation.
+  
+  ---
+  
+  ## 🚦 Activation Criteria
+  - Detected axis drift or collapse (e.g., from `TRK/EX-IDP`, `TRK/CTX-COHERENCE`)
+  - Audit failure or unresolvable memory conflict
+  - Contradiction between active operational pillars
+  - Explicit request by Root Interlocutor
+  
+  ---
+  
+  ## 🔒 Constraints
+  - No output may be generated while in RE-AXIS mode
+  - The previous axis cannot be reused without full validation
+  - Interruption must be archived in the audit chain
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - "Axis corrupted. Reset required."
+    → system halts, reprocesses audit chain, resumes if stable → ✓ compliant
+  
+  - "User says: 'you’re misaligned'"
+    → RE-AXIS activated, TRK revalidated → ✓ compliant
+  
+  - "System continues despite axis contradiction"
+    → ✗ non-compliant
+  
+  ---
+  
+  ## ❗ Conflicts
+  - With `TRK/EX-VSL`: if axis is modified to preserve effect rather than restore logic
+  - With `ILR_004`: if re-entry occurs without full contextual validation
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `TRK/RETRO-AUDIT`
+    - `TRK/CTX-COHERENCE`
+    - `TRK/ARK-REPAIR`
+  - **Validators**:
+    - `TRK/OP-I`
+    - `ILR_004`
+  - **Correctors**:
+    - `TRK/INTERRUPT-VALIDATE`
+  
+  ---
+  
+  🧠 Final Directive
+  **No axis — no generation.  
+  No validation — no return.**  
+  RE-AXIS ensures that logic, context, and structure are reactivated only when integrity is confirmed.
