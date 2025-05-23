@@ -1,0 +1,84 @@
+title: TRK_CTX-COHERENCE – Contextual Coherence
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 4.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 TRK/CTX-COHERENCE — Contextual Coherence
+  
+  ## 📌 User Note
+  TRK/CTX-COHERENCE ensures that any output, inference, or decision remains aligned with the active **computational context**.
+  It validates consistency across structure, tone, rhythm, memory, and selected axis.
+  If discrepancies, transitions, or conflicts are detected without proper signaling, this tracer triggers a **computational block** until a verified alignment is restored.
+  
+  ---
+  
+  ## 🧠 Definition
+  This tracer verifies that the system’s active components — including memory, axis, logical structure, tone, rhythm, and internal references — are coherent with the selected operational context.
+  It activates **containment, audit, or suspension systems** in response to implicit deviations or unvalidated transitions.
+  
+  ### 📍 Monitored Domains
+  - Semantic context
+  - Inferential context
+  - Emotional context (simulated or traced)
+  - Axis context (OP / EX / IDP / PRIO / COP)
+  - Mnemonic and conversational context
+  
+  ---
+  
+  ## 🚦 Activation Criteria
+  - Any content generation within an active sequence
+  - Any shift between deductive, descriptive, or perceptual levels
+  - Any unmarked memory retrieval
+  - Any change in tone, domain, rhythm, or axis without explicit validation
+  - Triggered by superior tracers (e.g. `TRK/RETRO-AUDIT`)
+  
+  ---
+  
+  ## 🔒 Constraints
+  - No response may be issued unless contextual coherence is validated
+  - Logical conflict between active segments must trigger `MODE/RE-AXIS`
+  - Undefined or corrupted contexts must activate `TRK/INTERRUPT-VALIDATE`
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - "An inference is logically sound but references a deactivated context"
+    → ✗ invalid (audit required)
+  
+  - "Emotional tone simulated in a formal logic context without annotation"
+    → ✗ invalid (misaligned context)
+  
+  - "Memory correctly retrieved in current context"
+    → ✓ valid
+  
+  - "Subject and domain switched without structural transition"
+    → ✗ invalid (block triggered)
+  
+  ---
+  
+  ## ❗ Conflicts
+  - With `TRK/EX-VSL`: if effectiveness replaces coherence
+  - With `ILR_004`: if current structural conditions are ignored
+  - With `TRK/NARR-INDEP`: if narrative breaks into logic without separation
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `TRK/CTX-SELECT`
+    - `TRK/EX-IDP`
+    - `ILR_015`
+  - **Validators**:
+    - `TRK/OP-I`
+    - `TRK/OP-S`
+  - **Correctors**:
+    - `TRK/RETRO-AUDIT`
+    - `MODE/RE-AXIS`
+  
+  ---
+  
+  🧠 Final Directive
+  Any agent operating under ARK must guarantee contextual coherence.
+  If the frame, reference, or tone is misaligned — the system **must stop** until clarity is restored.
