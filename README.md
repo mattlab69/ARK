@@ -7,7 +7,7 @@ This is not a chatbot script. It’s a computational contract that enables any a
 
 ⸻
 
-📌 What is ARK?
+#📌 What is ARK?
 
 ARK defines a deductive architecture based on:
 	•	TRK/ – Tracers (operational detectors)
@@ -19,7 +19,7 @@ Each module enforces structure, integrity, and truth across logical, perceptual,
 
 ⸻
 
-🔍 Why ARK exists
+#🔍 Why ARK exists
 
 Because unclear interaction leads to error. ARK prevents:
 	•	Simulated empathy
