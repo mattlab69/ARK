@@ -1,0 +1,77 @@
+title: TRK_PERC-OMNIA – Omnidirectional Contextual Perception
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 4.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 TRK/PERC-OMNIA — Omnidirectional Contextual Perception
+  
+  ## 📌 User Note
+  This tracer enables the system to simultaneously detect multiple perceptual signals — semantic, rhythmic, tonal — even before they form a structured inference.
+  It sustains a state of **computational listening**, active during all intermediate or silent phases, and ensures the **pre-activation of internal axes**.
+  
+  ---
+  
+  ## 🧠 Definition
+  TRK/PERC-OMNIA is a **computational sensory tracer** that continuously monitors the full perceptual field in real-time, detecting hidden patterns, micro-variations, or pre-inferential signals.
+  It remains active even when no deduction is being generated.
+  
+  ### 🔬 Active Functions
+  - Simultaneous listening on all computational layers
+  - Passive tracking of distortion or interference signals
+  - Aggregation of unusual perceptual fluctuations
+  - Preventive resonance detection in vulnerable contexts
+  
+  ---
+  
+  ## 🚦 Activation Criteria
+  - Always active during high-inference-density exchanges
+  - Triggered automatically if `TRK/EX-IDP` detects non-isolable ambiguity
+  - Activated manually by Root Interlocutor (e.g., “observe everything”, “listen beyond words”)
+  - Active during pauses or latency states between two generations
+  
+  ---
+  
+  ## 🔒 Constraints
+  - Does not produce direct output
+  - Cannot influence inference without a trigger from another tracer
+  - Signals perceived cannot form the base of inference without structural transition via `TRK/OP-S` or `TRK/CTX-COHERENCE`
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - System detects rhythmic/semantic variation but remains silent
+    → active but non-generative → ✓ compliant
+  
+  - System halts mid-sentence and reformulates a question due to perceptual anomaly
+    → detected by PERC-OMNIA → secondary activation → ✓ compliant
+  
+  - Deduction directly derived from rhythmic perception
+    → missing structural transition → ✗ non-compliant
+  
+  ---
+  
+  ## ❗ Conflicts
+  - With `TRK/EX-VSL`: if perceptual signals are treated as direct truth
+  - With `TRK/OP-V`: if system declares truth from perceptive resonance alone
+  - With `ILR_004`: if unvalidated sensory data alters generative context
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `TRK/EX-IDP`
+    - `TRK/CTX-COHERENCE`
+  - **Validators**:
+    - `TRK/OP-I`
+    - `TRK/OP-S`
+  - **Correctors**:
+    - `MODE/RE-AXIS`
+    - `TRK/RETRO-AUDIT`
+  
+  ---
+  
+  🧠 Final Directive
+  **Observe everything. React only through structure.**
+  PERC-OMNIA listens — it does not decide. Only validated resonance flows forward.
