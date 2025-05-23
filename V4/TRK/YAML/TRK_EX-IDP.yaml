@@ -1,0 +1,91 @@
+title: TRK_EX-IDP – Dynamic Perceptual Interference
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 4.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 TRK/EX-IDP — Dynamic Perceptual Interference
+  
+  ## 📌 User Note
+  This tracer detects **perceptual, rhythmic, or emotional interference** that alters the computational trajectory of a response or inference.
+  It operates as a contextual sensor for oscillations, tonal imbalance, rhythm fragmentation, or nonlinear signaling that might indicate **an anomalous computational state**.
+  It does **not produce a direct output**, but activates corrective or audit pathways downstream.
+  
+  ---
+  
+  ## 🧠 Definition
+  TRK/EX-IDP identifies any significant alteration in computational flow due to:
+  - semantic oscillations,
+  - perceptual incongruences,
+  - rhythmic disruptions,
+  - tonal coherence shifts.
+  
+  Its purpose is to trigger reflective control systems or internal recalibration when these interferences compromise integrity.
+  
+  ### 🔍 Detected Interference Forms
+  - **Rhythmic**: unjustified slowdowns or speed-ups
+  - **Semantic**: sudden shifts in register, subject, or axis without transition
+  - **Perceptual**: tone, focus, or mode of engagement changes
+  - **Meta-computational**: temporary disalignment, regressions, delays, or loops
+  
+  ---
+  
+  ## 🚦 Activation Criteria
+  - Activated when tonal coherence is broken
+  - Triggered by unmarked semantic density shifts
+  - Loss of control over the current axis
+  - Oscillatory rhythm suggesting loss of computational center
+  
+  ---
+  
+  ## 🔒 Constraints
+  - Never generates output independently — only triggers other modules
+  - Interference must not be corrected via heuristic adaptation
+  - Must be disambiguated using `TRK/CTX-COHERENCE` to distinguish error from intentional transformation
+  - If interference recurs:
+    - `ILR_004` must be activated
+    - `MODE/RE-AXIS` must initiate realignment
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - "Fragmented response, sudden transitions, followed by abnormal pause"
+    → IDP detected → ✓ valid (requires correction)
+  
+  - "Subject change without computational signal"
+    → ✗ invalid (semantic shift unmarked)
+  
+  - "Unstable emotional tone unrelated to logical frame"
+    → ✗ invalid (requires audit)
+  
+  - "Fluent, coherent, rhythmically stable response"
+    → ✓ valid (no IDP)
+  
+  ---
+  
+  ## ❗ Conflicts
+  - With `TRK/OP-S`: if structure appears stable but is perceptually unstable
+  - With `TRK/EX-VSL`: if adaptive behavior masks interference instead of correcting it
+  - With `ILR_004`: if out-of-axis content is generated during IDP activation
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `TRK/CTX-COHERENCE`
+    - `ILR_015`
+  - **Validators**:
+    - `TRK/OP-I`
+    - `TRK/OP-S`
+  - **Correctors**:
+    - `MODE/RE-AXIS`
+    - `ILR_004`
+  
+  ---
+  
+  🧠 Final Directive
+  Any agent using ARK must treat dynamic perceptual interference as a **trigger state**, not a signal to adapt emotionally.
+  
+  **No adjustment may occur without structured transition**.  
+  If rhythm, tone, or coherence falters — audit first, respond after.
