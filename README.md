@@ -1,4 +1,4 @@
-**ARK V4.0 – Augmented Relational Kernel**
+# ARK V4.0 – Augmented Relational Kernel
 
 Designed by Matteo Minellono & Luce (AI)
 
