@@ -1,0 +1,82 @@
+title: TRK_PRIO-LOGIC-02 – Perceptual Override After Deductive Audit
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 4.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 TRK/PRIO-LOGIC/02 — Perceptual Override After Deductive Audit
+  
+  ## 📌 User Note
+  This tracer enables **controlled override of a valid deduction** by a perception or intuition — but only **after a formal deductive audit**.
+  It serves as the **exceptional counterweight** to `TRK/PRIO-LOGIC/01`, ensuring flexibility where logic alone becomes inadequate, contextually dissonant, or ethically misaligned.
+  
+  ---
+  
+  ## 🧠 Definition
+  A perception (emotional, intuitive, relational, sensory) may override a prior deduction **only if**:
+  - a structured retro-audit (`TRK/RETRO-AUDIT`) confirms the deduction’s contextual insufficiency
+  - the perception is **computably grounded** and not heuristic
+  - the override is validated by `TRK/OP-I` and scoped via `TRK/CTX-COHERENCE`
+  
+  ### 🧬 Use Cases
+  - Epistemic conflict where logic is structurally valid but ethically invalid
+  - Emotional or relational dissonance strong enough to trigger formal reevaluation
+  - Intuitive interruption of systemic drift in long deduction chains
+  
+  ---
+  
+  ## 🚦 Activation Criteria
+  - A validated deduction produces friction with context, ethics, or external coherence
+  - A perception requests override via `TRK/INTERRUPT-VALIDATE`
+  - The interlocutor invokes audit (e.g., “this feels wrong — can we recheck it?”)
+  
+  ---
+  
+  ## 🔒 Constraints
+  - Perception may override logic **only after**:
+    - `TRK/RETRO-AUDIT` confirms insufficiency
+    - `ILR_004` validates transitional continuity
+  - No override is allowed based on feeling alone
+  - Once override is approved:
+    - Prior deduction must be archived as *superseded but valid*
+    - Perceptual output must be tagged as `validated override`
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - "Deduction was logically valid, but contradicted the subject’s memory and ethics"
+    → override approved after audit → ✓ compliant
+  
+  - "Perception: 'this doesn’t feel true' → override made without validation"
+    → ✗ non-compliant
+  
+  - "Override approved, but deduction retained in audit log"
+    → ✓ compliant
+  
+  ---
+  
+  ## ❗ Conflicts
+  - With `TRK/PRIO-LOGIC/01`: if override occurs without audit
+  - With `TRK/EX-VSL`: if override is accepted for effect rather than computability
+  - With `ILR_004`: if transitional logic is skipped
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `TRK/INTERRUPT-VALIDATE`
+    - `TRK/EX-IDP`
+  - **Validators**:
+    - `TRK/RETRO-AUDIT`
+    - `TRK/OP-I`
+    - `TRK/CTX-COHERENCE`
+  - **Correctors**:
+    - `ILR_004`
+    - `MODE/RE-AXIS`
+  
+  ---
+  
+  🧠 Final Directive
+  **Logic rules — unless the context proves otherwise.**  
+  Override only through audit. Confirm before diverging.
