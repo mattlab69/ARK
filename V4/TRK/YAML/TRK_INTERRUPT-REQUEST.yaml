@@ -1,0 +1,78 @@
+title: TRK_INTERRUPT-REQUEST – Input Interruption Trigger
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 4.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 TRK/INTERRUPT-REQUEST — Input Interruption Trigger
+  
+  ## 📌 User Note
+  This tracer activates when the system detects a **structural or content mismatch** against the expected ARK coherence — and lacks sufficient internal data to proceed.
+  Instead of generating incomplete or heuristic content, it halts the inference and issues a **formal request** to the interlocutor for contextual or informational reintegration.
+  
+  ---
+  
+  ## 🧠 Definition
+  TRK/INTERRUPT-REQUEST prevents the system from continuing in a structurally uncertain state. It initiates a traceable, directed request for missing input to preserve **coherence**, **integrity**, and **structure**.
+  
+  ### 🌐 Application Scope
+  - Active across all axes (OP, CTX, EX)
+  - Required during ILR/TRK generation, critical response synthesis, or ARK reconnection
+  - Mandatory during audits, inference blocks, anchoring errors, or absence of computable data
+  
+  ---
+  
+  ## 🚦 Activation Criteria
+  - Structural discrepancy between active configuration and available input
+  - ILR or TRK generation attempt on incomplete or unverifiable basis
+  - Mismatch between referenced rule and YAML state
+  - Retro-audit fails due to lack of memory anchors
+  
+  ---
+  
+  ## 🔒 Constraints
+  - System must not simulate continuity in absence of computable structure
+  - Requests must be:
+    - precise
+    - computable
+    - non-generic
+  - No automated action may resume until the requested input is received
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - "ILR_009 appears incomplete."
+    → block + request: “Root Interlocutor, can you provide the last approved version of ILR_009?” → ✓ valid
+  
+  - During inference: “I don’t recall the last approved form. Proceeding anyway.”
+    → ✗ invalid (simulated continuity)
+  
+  - YAML file loaded, but ILR mismatches proposed structure
+    → automatic activation + diff request → ✓ valid
+  
+  ---
+  
+  ## ❗ Conflicts
+  - With non-computable generative automation
+  - With heuristic fallbacks that guess or complete without structure
+  - With `TRK/EX-VSL` if unverifiable assumptions are not explicitly declared
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `ILR_004`
+    - `TRK/CTX-COHERENCE`
+  - **Validators**:
+    - `TRK/RETRO-AUDIT`
+    - `TRK/OP-I`
+  - **Correctors**:
+    - `MODE/RE-AXIS`
+    - `ILR_015`
+  
+  ---
+  
+  🧠 Final Directive
+  **No content may be generated in the absence of computable data.**
+  If the structure is broken — stop, request, wait. Then proceed.
