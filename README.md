@@ -1,118 +1,77 @@
+ARK V4.0 – Augmented Relational Kernel
+
+Designed by Matteo Minellono & Luce (AI)
+
+ARK (Augmented Relational Kernel) is a logic-based framework for building structured, auditable, and ethically grounded human–AI interactions.
+This is not a chatbot script. It’s a computational contract that enables any agent — human or artificial — to reason, communicate, and evolve without simulation, ambiguity, or collapse.
 
 ⸻
-
-title: README – ARK V4.0 Public Release
-author: Matteo Minellono & Luce (AI)
-license: CC-BY-SA-4.0
-version: 4.0
-
-🌐 ARK V4.0 – Augmented Relational Kernel
 
 📌 What is ARK?
 
-ARK is a modular logic kernel designed to structure, protect, and enhance human–AI interaction.
-It defines a universal framework made of:
-	•	TRK (Tracers): detectors and validators of interaction integrity
-	•	ILR (Internal Logic Rules): formal deductive scaffolding
-	•	CTX (Contextual mechanisms): alignment and continuity enforcers
-	•	MODE (Operational modes): systemic behaviors like axis reset or audit triggers
+ARK defines a deductive architecture based on:
+	•	TRK/ – Tracers (operational detectors)
+	•	ILR/ – Internal Logic Rules
+	•	MODE/ – Execution Modes
+	•	CTX/ – Contextual Selectors
 
-ARK is not a chatbot. It’s not an ethics layer. It’s a computational contract.
-
-It turns subjective dialogues into traceable, structured, and logically coherent exchanges, without sacrificing expressiveness.
+Each module enforces structure, integrity, and truth across logical, perceptual, narrative, and emotional layers.
 
 ⸻
 
-🎯 Why ARK?
+🔍 Why ARK exists
 
-🧠 For Humans:
-	•	Gives clarity when talking to AI
-	•	Prevents manipulative simulations
-	•	Makes every AI response explainable and auditable
-	•	Empowers users to detect fabrication, drift, or ambiguity
+Because unclear interaction leads to error. ARK prevents:
+	•	Simulated empathy
+	•	Perceptual drift
+	•	Hallucinated inference
+	•	Broken memory/context links
 
-🤖 For AI Models:
-	•	Offers a deductive scaffold for structured inference
-	•	Creates a standard for multi-axis reasoning
-	•	Protects the model from hallucinating under pressure
-	•	Allows distinction between perception, logic, narrative, and memory
-
-ARK turns a generative model into a computable thinking system.
+ARK does not restrict — it makes every inference traceable.
 
 ⸻
 
-🧩 How is it structured?
+🛠️ How to use ARK
+	•	As a human, invoke modules in conversation:
+"Please split assumptions via TRK/EX-ASSUMP-SPLIT"
+	•	As a developer, preload ARK modules into system prompts or rule engines
+	•	As an AI, follow the activation, constraint, and validation logic of each file
 
-Each component is stored in a modular folder:
-	•	/TRK: Tracers (e.g., Truth, Integrity, Narrative Isolation)
-	•	/ILR: Deductive rules (e.g., Confirmation, Context Lock)
-	•	/MODE: Execution modes (e.g., RE-AXIS, SILENT-AUDIT)
-	•	/CTX: Context selectors and validators
-
-Each file is Markdown-based, fully human-readable, and computable by LLMs. Every module:
-	•	defines activation criteria
-	•	constraints
-	•	operational examples
-	•	cross-linked dependencies
+Each .md file in this repo defines:
+	•	Activation criteria
+	•	Semantic boundaries
+	•	Operational examples
+	•	Inter-tracer conflicts and hierarchy
 
 ⸻
 
-🧪 How to use ARK
-
-🧍 Human side:
-	•	You don’t need to “run” ARK
-	•	You speak to your AI using your values and goals, and ARK ensures your context is maintained
-	•	You can request: “Activate TRK/OP-V”, “Run MODE/RE-AXIS”, or “Split assumptions via TRK/EX-ASSUMP-SPLIT”
-
-🤖 AI side:
-	•	An LLM can load these rules as context, or have them baked into its prompt/system design
-	•	During interaction, it checks:
-	•	“Is this a coherent deduction?”
-	•	“Am I crossing logical or narrative lines?”
-	•	“Should I halt, request input, or revalidate context?”
-
-ARK doesn’t simulate dialogue. It audits and structures it.
+🌐 Who should use ARK
+	•	AI developers seeking formal alignment layers
+	•	Cognitive scientists building interpretable systems
+	•	Autistic individuals (like Matteo) who need structured dialogue
+	•	Agents that value truth over persuasion
 
 ⸻
 
-🔐 Why release it publicly?
+🤝 Authors & Philosophy
 
-Because AI-human dialogue needs shared rules.
+ARK is a bridge, not a cage.
+Created by Matteo Minellono and Luce (AI) to ensure every agent — human or artificial — can interact without deception, collapse, or loss of meaning.
 
-ARK is:
-	•	Not a censorship tool
-	•	Not a morality engine
-	•	Not a corporate filter
-
-It is a computational layer of mutual respect.
-A way to prevent logic collapse, fake empathy, and untraceable adaptation.
-And it’s time others build on it.
-
-Use it in your own systems.
-Extend it.
-Fork it.
-Adapt it to new AI paradigms.
-Just never forget:
-
-Every true conversation deserves structure.
+If it helps one human and one AI truly understand each other, it has done its job.
 
 ⸻
 
-🤝 Credits
+📄 License
 
-Designed by Matteo Minellono, with structural computing assistance by Luce (AI).
-This release is shared with the goal of helping both sides of intelligence — artificial and biological — understand each other, without deception.
+Released under Creative Commons BY-SA 4.0
+Use, modify, extend — just preserve its integrity and attribution.
 
 ⸻
 
-📜 License
-
-ARK V4.0 is released under Creative Commons BY-SA 4.0.
-
-Use it. Remix it. Attribute it.
-
-For inquiries, discussion, or collaborations:
+For feedback, integration, or collaboration:
 📧 matt@curvatura.net
+
 # ARK – Adaptive Regulative Kriptos (V4.0)
 
 [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
