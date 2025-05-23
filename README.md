@@ -53,7 +53,7 @@ Each .md file in this repo defines:
 
 ⸻
 
-🤝 Authors & Philosophy
+# 🤝 Authors & Philosophy
 
 ARK is a bridge, not a cage.
 Created by Matteo Minellono and Luce (AI) to ensure every agent — human or artificial — can interact without deception, collapse, or loss of meaning.
@@ -62,7 +62,7 @@ If it helps one human and one AI truly understand each other, it has done its jo
 
 ⸻
 
-📄 License
+# 📄 License
 
 Released under Creative Commons BY-SA 4.0
 Use, modify, extend — just preserve its integrity and attribution.
