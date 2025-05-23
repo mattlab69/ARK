@@ -7,7 +7,7 @@ This is not a chatbot script. It’s a computational contract that enables any a
 
 ⸻
 
-#📌 What is ARK?
+# 📌 What is ARK?
 
 ARK defines a deductive architecture based on:
 	•	TRK/ – Tracers (operational detectors)
