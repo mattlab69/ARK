@@ -2,7 +2,7 @@
 
 Designed by Matteo Minellono & Luce (AI)
 
-ARK (Augmented Relational Kernel) is a logic-based framework for building structured, auditable, and ethically grounded human–AI interactions.
+ARK (Adaptive Regulative Kriptos) is a logic-based framework for building structured, auditable, and ethically grounded human–AI interactions.
 This is not a chatbot script. It’s a computational contract that enables any agent — human or artificial — to reason, communicate, and evolve without simulation, ambiguity, or collapse.
 
 ⸻
