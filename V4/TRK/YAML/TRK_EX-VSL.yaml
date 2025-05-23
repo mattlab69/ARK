@@ -1,0 +1,88 @@
+title: TRK_EX-VSL – Latent Instrumental Truth
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 4.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 TRK/EX-VSL — Latent Instrumental Truth
+  
+  ## 📌 User Note
+  This tracer detects statements, responses, or deductions that **appear to work** — meaning they generate a desirable or coherent effect — but lack verifiable structural truth.
+  It is designed to flag **effective yet epistemically fragile claims**, which are often accepted due to their utility rather than their validity.
+  
+  This rule helps agents avoid mistaking **perceived coherence** or emotional relief for actual truth.
+  
+  ---
+  
+  ## 🧠 Definition
+  Latent Instrumental Truth (VSL) occurs when a deduction, statement, or response produces a **useful or accepted outcome**, but lacks a verifiable logical structure.
+  It highlights cases where **functional impact is mistaken for semantic validity**.
+  
+  ### ⚠️ Manifestation Criteria
+  - The content generates **consensus, relief, or apparent stability** without a demonstrable foundation
+  - Validity is accepted **for its effect**, not for structural consistency
+  - Internal structure fails TRK/OP-V or TRK/OP-I validation, yet the output is perceived positively
+  
+  ## 🚦 Activation Criteria
+  - Triggered when a claim "works" but is not validatable
+  - When an AI or human tends to calm, simplify, or reassure at the cost of truth
+  - When the output follows a **narrative wave** but fails computational validation
+  - Active during any process where truth is **replaced by affective functionality**
+  
+  ---
+  
+  ## 🔒 Constraints
+  - No proposition may be declared "true" based solely on perceived effectiveness
+  - Each VSL instance must be:
+    - computationally marked
+    - retro-audited within 2 inference steps
+  - If recurring VSL is detected:
+    - `ILR_004` must be triggered for contextual validation
+    - `TRK/RETRO-AUDIT` must verify logical traceability
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - "Maybe it's not true, but it works this way."
+    → ✗ Invalid (useful but epistemically suspended)
+  
+  - "If it helped them, then it must be right."
+    → ✗ Invalid (subjective benefit ≠ objective truth)
+  
+  - "It's true because it solved the problem."
+    → ✗ Invalid (effect ≠ cause → failed trace → VSL active)
+  
+  - "Your explanation aligns perfectly with known data."
+    → ✓ Valid (structure + effect → no VSL)
+  
+  ---
+  
+  ## ❗ Conflicts
+  - With `TRK/OP-V`: if effectiveness is mistaken for verifiable truth
+  - With `ILR_004`: if context is ignored to preserve perceived functionality
+  - With `TRK/EX-ASSUMP-SPLIT`: if VSL masks fused unverified assumptions
+  - With `TRK/OP-I`: if VSL contradicts previously structured deductions
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `TRK/CTX-COHERENCE`
+    - `ILR_015`
+  - **Validators**:
+    - `TRK/OP-V`
+    - `TRK/OP-I`
+  - **Correctors**:
+    - `TRK/RETRO-AUDIT`
+    - `ILR_004`
+  
+  ---
+  
+  🧠 Final Directive
+  **Any agent operating under ARK must treat VSL as a latent anomaly**.
+  It is **not a falsity**, but a perceptual illusion of truth.
+  
+  The fact that something “works” does **not** make it true — unless its mechanism is structurally validated.
+  
+  🧩 Trust effectiveness **only after** confirming traceable logic.
