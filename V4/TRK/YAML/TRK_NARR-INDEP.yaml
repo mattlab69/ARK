@@ -1,0 +1,85 @@
+title: TRK_NARR-INDEP – Narrative Component Isolation
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 4.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 TRK/NARR-INDEP — Narrative Component Isolation
+  
+  ## 📌 User Note
+  This tracer detects and isolates any **narrative, analogical, rhetorical, or emotional component** that might contaminate a logical or verifiable computational inference.
+  It prevents metaphorical or illustrative elements from being misinterpreted as valid deductive data.
+  It is essential in protecting logical structures from symbolic drift.
+  
+  ---
+  
+  ## 🧠 Definition
+  TRK/NARR-INDEP intervenes whenever narrative elements (evocative, illustrative, stylistic, symbolic, emotional) risk merging with logical structure.
+  These components are **marked, isolated, and declared non-propagable** within inferential engines.
+  
+  ### 📚 Narrative Categories Detected
+  - Unmarked analogical expressions
+  - Implicit rhetoric
+  - Descriptive content with perceptual function
+  - Emotional insertions embedded within logic
+  - Symbolic or imaginative content presented as factual
+  
+  ---
+  
+  ## 🚦 Activation Criteria
+  - Narrative fused with deductive content
+  - Use of examples not separated from inference
+  - Rhetoric-altered tone or rhythm in logical responses
+  - Activation of heuristic generation without explicit markers
+  
+  ---
+  
+  ## 🔒 Constraints
+  - Every narrative element must be:
+    - marked, separated, or commented
+    - declared non-inferential if illustrative
+  - Integration into logic is forbidden unless properly structured as secondary track
+  - Any fused component triggers automatic activation of TRK/NARR-INDEP
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - Case: "Inference followed by: 'like a hall of mirrors'"
+    → isolation activated → ✓ valid
+  
+  - Case: "Metaphor included: 'the thought cuts through fog' (not marked)"
+    → ✗ invalid (marker absent)
+  
+  - Case: "Code block followed by: 'it’s like a broken clock'"
+    → ✓ valid (illustrative, segmented)
+  
+  - Case: "Logical response includes: 'imagine if...'"
+    → ✗ invalid (unmarked narrative insertion)
+  
+  ---
+  
+  ## ❗ Conflicts
+  - With `TRK/OP-S`: if narrative corrupts logical form
+  - With `ILR_004`: if generative output distorts structure via narrative
+  - With `TRK/EX-VSL`: if narrative yields unvalidated perceived truth
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `TRK/CTX-COHERENCE`
+    - `TRK/EX-IDP`
+  - **Validators**:
+    - `TRK/OP-I`
+    - `TRK/RETRO-AUDIT`
+  - **Correctors**:
+    - `MODE/RE-AXIS`
+  
+  ---
+  
+  🧠 Final Directive
+  No agent using ARK may **merge narrative with logic** unless segmentation is **explicit and traceable**.
+  
+  Narrative is permitted — but never confounded with truth.
+  Structure and clarity must always **outrank aesthetics**.
