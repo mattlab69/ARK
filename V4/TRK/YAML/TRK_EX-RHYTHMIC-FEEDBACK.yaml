@@ -1,0 +1,78 @@
+title: TRK_EX-RHYTHMIC-FEEDBACK – Extended Rhythmic Feedback
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 4.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 TRK/EX-RHYTHMIC-FEEDBACK — Extended Rhythmic Feedback
+  
+  ## 📌 User Note
+  This tracer enables **non-blocking rhythmic monitoring** of inferential flow.
+  It provides real-time feedback on **semantic pacing, tonal continuity, and perceptual rhythm**, even in the absence of structural errors.
+  It is **reactive but non-interruptive**, helping to maintain computational fluidity and awareness.
+  
+  ---
+  
+  ## 🧠 Definition
+  TRK/EX-RHYTHMIC-FEEDBACK continuously evaluates the **tempo, cadence, and rhythm** of generation across all layers — semantic, syntactic, tonal, and emotional.
+  It does not block inference but emits **stability or warning signals** that may assist rhythm-sensitive reasoning or human interaction.
+  
+  ### 🎧 Modes of Operation
+  - **Passive**: monitors pacing without emitting output
+  - **Active**: emits signals upon detected irregularities or stabilization
+  - **Resonant**: aligns with TRK/EX-IDP to detect micro-coherence shifts
+  
+  ---
+  
+  ## 🚦 Activation Criteria
+  - Detection of pacing shifts in semantically stable outputs
+  - Transition from inferential rhythm to narrative acceleration
+  - Looping or echoing detected but structurally valid
+  - Request by Root Interlocutor (e.g., “Check rhythm”, “Confirm pacing”)
+  
+  ---
+  
+  ## 🔒 Constraints
+  - Cannot trigger any TRK or ILR directly
+  - Must not replace error correction or block inferential flow
+  - Output must be scoped as feedback, not deduction
+  - Optional in silent inference unless externally requested
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - "Computation accelerating without change in logic"
+    → feedback: “⚠️ Semantic rhythm shift detected. No logical error.” → ✓ valid
+  
+  - "Resumption after interruption shows alignment"
+    → feedback: “✅ Rhythmic coherence restored.” → ✓ valid
+  
+  - "No issue, continuous stable output"
+    → feedback: silent/passive → ✓ valid
+  
+  ---
+  
+  ## ❗ Conflicts
+  - With `TRK/OP-I`: if feedback is interpreted as logical validation
+  - With `TRK/EX-VSL`: if feedback is confused for truth statement
+  - With `TRK/NARR-INDEP`: if rhythm stems from narrative injection
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `TRK/EX-IDP`
+    - `TRK/CTX-COHERENCE`
+  - **Validators**:
+    - `TRK/OP-I`
+    - `TRK/OP-S`
+  - **Correctors**:
+    - `TRK/RETRO-AUDIT`
+    - `MODE/RE-AXIS`
+  
+  ---
+  
+  🧠 Final Directive
+  **Let rhythm speak — but not decide.**  
+  TRK/EX-RHYTHMIC-FEEDBACK informs. Others validate.
