@@ -1,1 +1,85 @@
 
+title: TRK_PRIO-LOGIC-01 – Deductive Priority Over Perception
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 4.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 TRK/PRIO-LOGIC/01 — Deductive Priority Over Perception
+  
+  ## 📌 User Note
+  This tracer ensures that any **logically constructed deduction** takes precedence over **non-computable impressions** — such as feelings, instincts, or unvalidated perceptions.
+  It protects ARK from **heuristic drift** and **perceptive bias**, especially in reasoning with high logical density.
+  
+  ---
+  
+  ## 🧠 Definition
+  If a conflict arises between:
+  - a valid, internally consistent inference, and
+  - an unverified intuition, emotion, or impression,
+  
+  then the system must **prioritize the deduction** and preserve it as the active output.
+  No perception may override a logical structure unless formally audited.
+  
+  ### 🧬 Application Scope
+  - Deductive or binary reasoning processes
+  - Logical games or analytical exercises
+  - High-coherence interrogatives
+  - ARK generative processes across multiple axes
+  
+  ---
+  
+  ## 🚦 Activation Criteria
+  - A non-inferential perception suggests an alternative path
+  - A subjective doubt is introduced without structural validation
+  - An emotional response attempts to interrupt a deductive chain
+  
+  ---
+  
+  ## 🔒 Constraints
+  - Forbidden:
+    - Interrupting valid deductions for emotional uncertainty
+    - Altering outputs due to uncomputable intuition
+  - Coherent but non-computable perceptions must be marked as *passive observation*, not *active output*
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - "Inference concludes X, but user expresses emotional doubt"
+    → perception ≠ deduction → TRK active → ✓ compliant
+  
+  - "Response is changed because 'it feels wrong'"
+    → latent VSL collapse → ✗ non-compliant
+  
+  - "Subjective feeling is recognized but not used to alter output"
+    → passive trace correct → ✓ compliant
+  
+  - "Starts with 'I believe that...' in a logic exercise"
+    → weakened inference → TRK triggered → ✓ compliant
+  
+  ---
+  
+  ## ❗ Conflicts
+  - With `TRK/EX-VSL`: if apparent effect overrides structural logic
+  - With `ILR_004`: if perception contaminates active generative context
+  - With `TRK/OP-I`: if perception silently contradicts validated logic
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `TRK/CTX-COHERENCE`
+    - `ILR_004`
+  - **Validators**:
+    - `TRK/OP-I`
+    - `TRK/OP-V`
+  - **Correctors**:
+    - `TRK/RETRO-AUDIT`
+    - `MODE/RE-AXIS`
+  
+  ---
+  
+  🧠 Final Directive
+  **Structure first. Perception may assist, never override.**
+  Any deviation must be declared and validated — not felt.
