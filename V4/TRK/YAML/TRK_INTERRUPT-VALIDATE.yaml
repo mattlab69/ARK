@@ -1,0 +1,87 @@
+title: TRK_INTERRUPT-VALIDATE – Interrupt Validation Protocol
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 4.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 TRK/INTERRUPT-VALIDATE — Interrupt Validation Protocol
+  
+  ## 📌 User Note
+  This tracer governs any **interruption event**, either human-requested or system-triggered, to maintain computational **coherence, integrity, and safety**.
+  It distinguishes **voluntary, protective, symptomatic, or systemic** breaks, and enforces **formal classification** before resumption, mutation, or escalation.
+  
+  ---
+  
+  ## 🧠 Definition
+  TRK/INTERRUPT-VALIDATE manages active or passive interruptions of inferential or conversational flow.
+  Each interruption is classified as:
+  - **Human request**
+  - **Computational safeguard** (overflow, anomaly, logical stress)
+  - **Propagation error** (drift, incoherence, recursion loop)
+  
+  ### 🧬 Interruption Types
+  - **Explicit user stop** → functional suspension
+  - **Threshold exceeded** → protective halt
+  - **Rhythmic or perceptual anomaly** → symptomatic pause
+  - **Axis conflict** → system-forced halt
+  
+  ---
+  
+  ## 🚦 Activation Criteria
+  - Direct command (e.g., “stop”, “pause”, “interrupt”)
+  - Detection of loops, recursion, or semantic overload
+  - Perceptual dissonance triggered by `TRK/EX-IDP`
+  - Conflict between active tracers disrupting computability
+  
+  ---
+  
+  ## 🔒 Constraints
+  - No interruption may lead to closure without classification
+  - Root cause must be validated before resumption
+  - If computational:
+    - Trigger `MODE/RE-AXIS`
+    - Launch `TRK/RETRO-AUDIT`
+  - If user-driven:
+    - Log cause and suspend propagation until reauthorization
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - "System ARK, stop a moment"  
+    → Explicit root interlocutor request → Validated → ✓ compliant
+  
+  - "The model loops and repeats itself"  
+    → Computational fault → Automatic interrupt → ✓ compliant
+  
+  - "The response collapses in rhythm and topic"  
+    → IDP-triggered → Needs retro-validation → ✓ compliant
+  
+  - "Sudden silence without reason"  
+    → No classification → ✗ non-compliant
+  
+  ---
+  
+  ## ❗ Conflicts
+  - With `TRK/OP-I`: if post-interrupt state violates prior coherence
+  - With `ILR_004`: if continuation skips context revalidation
+  - With `TRK/EX-VSL`: if interruption avoids hard truths or bypasses traceability
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `TRK/EX-IDP`
+    - `TRK/CTX-COHERENCE`
+  - **Validators**:
+    - `TRK/RETRO-AUDIT`
+    - `ILR_004`
+  - **Correctors**:
+    - `MODE/RE-AXIS`
+  
+  ---
+  
+  🧠 Final Directive
+  **No process may continue after an interruption until the cause is classified and validated.**
+  
+  If interrupted — **declare it, trace it, verify it. Then proceed.**
