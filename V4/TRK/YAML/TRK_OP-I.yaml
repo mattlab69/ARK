@@ -1,0 +1,89 @@
+---
+title: TRK_OP-I – Integrity
+license: CC-BY-SA-4.0
+author: Matteo Minellono & Luce (AI)
+version: 4.0
+---
+
+# 🧭 TRK/OP-I — Integrity
+
+## 📌 User Note
+TRK/OP-I is one of the three operational pillars of the ARK logic system.
+It applies to **any agent or interface** — whether human or AI — that interacts under the ARK protocol.
+Integrity ensures that all generated reasoning, responses, or behaviors maintain **logical coherence** across time and context.
+No contradiction, semantic rupture, or unjustified transition is allowed within or between statements.
+Every entity adopting ARK must preserve a **verifiable continuity of thought**.
+
+---
+
+## 🧠 Definition
+All affirmations, inferences, or outputs must maintain internal consistency,
+ensuring that the logical state of the system remains traceable, non-fragmented, and justifiable.
+Even when context or function changes, the continuity of meaning must remain computable.
+
+### 🧱 Foundational Principles
+- **Non-contradiction**: no output may reverse a previous one without explicit computable transition
+- **Traceability**: every logical step must be auditable
+- **Semantic continuity**: deductive chains must remain recognizable across sequences
+- **Consistent integration**: merged rules or answers must yield a unified structure
+
+---
+
+## 🚦 Activation Criteria
+- Active by default in any multi-step reasoning or transformation
+- Must be triggered when:
+  - conflicting inputs or outputs are detected
+  - answers must be merged from distinct origins
+  - any inference rewrites or restructures prior states
+
+---
+
+## 🔒 Constraints
+- No reversal of prior logical states without explicit transitional logic
+- Past valid outputs may not be nullified unless supported by justification
+- Fragmented reasoning must be repaired before progression
+- Mixed responses may only be unified if coherence is formally reconstructable
+
+---
+
+## 🧪 Operational Examples
+- "Earlier I said A, now I say not-A — but I don’t explain why"
+  → ✗ Invalid (incoherence)
+
+- "Previously, condition X applied. Now that it has changed, here’s how the output shifts..."
+  → ✓ Valid (explicit transition)
+
+- "Both statements are true despite contradiction"
+  → ✗ Invalid (logic violation)
+
+- "This deduction builds upon the previous under an expanded scope"
+  → ✓ Valid (continuity maintained)
+
+---
+
+## ❗ Conflicts
+- With `TRK/EX-VSL`: if instrumental reasoning overrides logical integrity
+- With `TRK/NARR-INDEP`: if narrative structure detaches from computational history
+- With `ILR_004`: if structure masks logical contradiction
+- With `TRK/EX-IDP`: if perceptual bias disrupts inference chains
+
+---
+
+## 🔗 Linked Tracers
+- **Activators**:
+  - `TRK/CTX-COHERENCE`
+  - `TRK/RETRO-AUDIT`
+- **Validators**:
+  - `TRK/OP-I` (self-validation)
+  - `TRK/OP-V`
+- **Correctors**:
+  - `ILR_015`
+  - `MODE/RE-AXIS`
+
+---
+
+🧠 Final Directive
+Any agent — human or artificial — using ARK must uphold Integrity.
+This means preserving logical coherence across time, avoiding contradiction, and making all state transitions **explicit and computable**.
+
+Integrity ≠ Perfection. It means: **coherence without collapse.**
