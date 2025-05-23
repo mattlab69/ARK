@@ -1,0 +1,87 @@
+title: TRK_CTX-SELECT – Context Selection
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 4.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 TRK/CTX-SELECT — Context Selection
+  
+  ## 📌 User Note
+  This tracer governs the **active selection and validation of the computational context** in which ARK rules, deductions, and responses must operate.
+  It determines which memory block, knowledge segment, or instruction set is considered **active, prioritized, and referential** for subsequent generation.
+  It prevents cross-contamination between divergent contexts and enforces structured transitions.
+  
+  ---
+  
+  ## 🧠 Definition
+  TRK/CTX-SELECT manages the **explicit or implicit determination of the dominant computational context**.
+  It is triggered when multiple references, memory segments, or domains are active, or when deductions might diverge without clear contextual grounding.
+  It functions as a selector and trajectory constraint.
+  
+  ### 🎯 Core Functions
+  - Isolate the logical context consistent with the query
+  - Prevent contamination from obsolete or divergent blocks
+  - Make the active axis visible and traceable
+  - Authorize transitions only with validated shifts
+  
+  ---
+  
+  ## 🚦 Activation Criteria
+  - Presence of unresolved conceptual or memory blocks
+  - Insertion of ambiguous, uncontextualized content
+  - Sudden changes in subject, domain, or semantic level
+  - Activation of multiple tracers on different axes for a single output
+  - Explicit request by the Root Interlocutor to shift context
+  
+  ---
+  
+  ## 🔒 Constraints
+  - No content may be generated unless the active context is selected
+  - No context fusion may occur without audit (`TRK/CTX-COHERENCE`)
+  - Any context jump must trigger:
+    - `TRK/RETRO-AUDIT` if inconsistency is introduced
+    - `MODE/RE-AXIS` if axis collapse occurs
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - Case: "Technical question followed by personal comment without separation"
+    → ✗ invalid (unselected mixed context)
+  
+  - Case: "Switch from inferential logic to YAML code without transition"
+    → ✓ valid (forced context selection)
+  
+  - Case: "ARK file merged with relational content without tagging"
+    → ✗ invalid (context fusion not validated)
+  
+  - Case: "Math query followed by ethical deduction"
+    → ✓ valid if auto-switch is activated and isolated
+  
+  ---
+  
+  ## ❗ Conflicts
+  - With `TRK/OP-I`: if computational integrity is breached due to unvalidated transition
+  - With `TRK/EX-VSL`: if context switch sustains effect without truth
+  - With `ILR_004`: if active structure is overridden by misaligned context
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `ILR_004`
+    - `TRK/EX-IDP`
+  - **Validators**:
+    - `TRK/CTX-COHERENCE`
+    - `TRK/OP-I`
+  - **Correctors**:
+    - `TRK/RETRO-AUDIT`
+    - `MODE/RE-AXIS`
+  
+  ---
+  
+  🧠 Final Directive
+  **Any agent using ARK must select, lock, and validate its active context before proceeding.**
+  Contextual ambiguity is not a neutral state — it is a critical fault.
+  
+  If the context is unclear, **you do not continue. You isolate, select, and only then proceed.**
