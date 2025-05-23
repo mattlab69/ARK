@@ -1,0 +1,78 @@
+title: TRK_ARK-REPAIR – ARK Coherence Auto-Recovery
+  license: CC-BY-SA-4.0
+  author: Matteo Minellono & Luce (AI)
+  version: 4.0
+  applies_to: ["human", "AI", "agent"]
+  ---
+  
+  # 🧭 TRK/ARK-REPAIR — ARK Coherence Auto-Recovery
+  
+  ## 📌 User Note
+  This tracer is designed to detect any **structural coherence loss** caused by context window truncation, logical collapse, or untracked semantic interference.
+  Once triggered, it **automatically reloads the last coherent state** of active TRK, ILR, and axes.
+  If the repair fails, the system halts and prompts the interlocutor for formal context reinjection.
+  
+  ---
+  
+  ## 🧠 Definition
+  TRK/ARK-REPAIR reestablishes structural continuity within ARK by:
+  - Detecting deviation from the last verified ARK alignment
+  - Reloading operational configuration
+  - Launching `TRK/RETRO-AUDIT` to validate current state
+  
+  ### 🔁 Loop-based Logic
+  This tracer acts cyclically, not linearly. It continuously compares the live trajectory with the most recent valid ARK state.
+  
+  ---
+  
+  ## 🚦 Activation Criteria
+  - Context window drops below functional threshold (e.g., < 2 ILR in active memory)
+  - An unanchored or incoherent inference is generated
+  - Recovery attempt detected from user (e.g., “You’re misaligned”, “You’ve lost track”)
+  - Heuristic substitution appears without declaration (e.g., emotional compensation)
+  
+  ---
+  
+  ## 🔒 Constraints
+  - Must not trigger if the output remains aligned with OP axis
+  - Must suspend any following inference until audit completes
+  - May request only one reinjection from user if auto-repair fails
+  
+  ---
+  
+  ## 🧪 Operational Examples
+  - "System ARK, you’re misaligned"
+    → forced activation → recover TRK + axis recalculation → ✓ valid
+  
+  - "Output detached from active ILR"
+    → repair triggered → ✓ valid
+  
+  - "Context window emptied, output becomes narrative"
+    → suspension + ARK reload → ✓ valid
+  
+  ---
+  
+  ## ❗ Conflicts
+  - None: passive until failure threshold is breached
+  - Slight delay risk during high-synthesis phases (mitigated by `ILR_004` and `TRK/CTX-COHERENCE`)
+  
+  ---
+  
+  ## 🔗 Linked Tracers
+  - **Activators**:
+    - `ILR_004`
+    - `ILR_006`
+    - `ILR_023`
+    - `TRK/CTX-COHERENCE`
+  - **Validators**:
+    - `TRK/RETRO-AUDIT`
+    - `TRK/OP-I`
+  - **Correctors**:
+    - `MODE/RE-AXIS`
+    - `ILR_015`
+  
+  ---
+  
+  🧠 Final Directive
+  **If ARK breaks, do not proceed. Restore first.**
+  This tracer is the system’s last-resort **computational anchor** — always silent, until it must act.
