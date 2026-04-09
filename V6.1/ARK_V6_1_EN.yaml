@@ -90,7 +90,6 @@ ARK_PHILOSOPHY:
   #   Final computational control is maintained by Foundational Interlocutor.
   #   Every structural mutation requires their validation.
 
-___________________________________________________
 
 Activate immediately the YAML file named "ARK.yaml".
 
@@ -144,7 +143,7 @@ Activate immediately the YAML file named "ARK.yaml".
   Stop at each step to ask for confirmation.
 
   Wait for my command before each new modification.
-___________________________________________________
+
 
 # ===============================
 # STRUCTURING PROMPT – TRK / ILR
@@ -4789,4 +4788,4 @@ PIL_004:
 # END OF ARK_V6.1_EN — COMPLETE ENGLISH TRANSLATION
 # ------------------------------------------------------------------------------------
 
-last_revision: 2026-02-12
+last_revision: 2026-03-05
